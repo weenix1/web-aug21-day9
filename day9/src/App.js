@@ -27,7 +27,7 @@ const App = () => {
     surname: "",
     email: "",
     password: "",
-    comfirmpassword: "",
+    confirmPassword: "",
   });
 
   return (
