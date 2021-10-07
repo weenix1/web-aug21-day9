@@ -51,6 +51,7 @@ const Registration = ({ location, registration, setRegistration }) => {
     }
   };
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     formCkeck();
   }, [
     values.name,
